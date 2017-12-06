@@ -12,37 +12,44 @@
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
 
-        <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="369dp" />
-
     <Button
         android:id="@+id/create_travel_plan_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:text="create_travel_plan"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="104dp" />
+        tools:layout_editor_absoluteY="104dp"
+        android:background="@drawable/write"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:textSize="20dp"
+        />
 
     <Button
         android:id="@+id/my_travel_plan_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:text="my_travel_plan"
         tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteY="183dp"
+        android:background="@drawable/data"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:textSize="20dp"
+        />
 
     <Button
     android:id="@+id/travel_plan_list_btn"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
     android:text="travel_plan_list"
     tools:layout_editor_absoluteX="114dp"
-    tools:layout_editor_absoluteY="267dp" />
+    tools:layout_editor_absoluteY="267dp"
+        android:background="@drawable/list"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:textSize="20dp"
+        />
 </LinearLayout>
 
 
